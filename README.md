@@ -1,3 +1,4 @@
+# Beacons of RGB 🌈
 ## GUI of the project
 
 <img width="749" height="739" alt="GUI2" src="https://github.com/user-attachments/assets/b5d1aa82-8828-484b-b8dd-f7d347ac38d1" />
@@ -6,7 +7,7 @@
 
 ## Project Overview
 
-Beacons of RGB is a C++20 project developed as part of a Data Structures and Algorithms course. The system simulates a network of "beacons" that transmit and combine colored light rays through direct paths and an underground network of optical fibers.The primary objective is the implementation of highly efficient data structures and algorithms to handle large-scale datasets, aiming for an average time complexity of $\Theta(n \log n)$ or better for most operations. The project emphasizes the effective use of the C++ Standard Template Library (STL) and custom algorithmic design. 🌈
+Beacons of RGB is a C++20 project developed as part of a Data Structures and Algorithms course. The system simulates a network of "beacons" that transmit and combine colored light rays through direct paths and an underground network of optical fibers.The primary objective is the implementation of highly efficient data structures and algorithms to handle large-scale datasets, aiming for an average time complexity of $\Theta(n \log n)$ or better for most operations. The project emphasizes the effective use of the C++ Standard Template Library (STL) and custom algorithmic design. 💡
 
 ## Key Features
 * Beacon Management
@@ -16,7 +17,7 @@ Beacons of RGB is a C++20 project developed as part of a Data Structures and Alg
 * Light Propagation & Color Physics
   * Light Beams: Beacons can emit a single combined light ray to another beacon.
   * Color Blending: When multiple rays enter a beacon, the output color is calculated as the average of the incoming rays and the beacon's inherent color
-  * Brightness Calculation: Brightness is determined using the sRGB approximation formula: Brightness = 3*R + 6*G + B
+  * Brightness Calculation: Brightness is determined using the sRGB approximation formula: Brightness = 3*R + 6*G + B 
  
 * Optical Fiber Network
   * Graph Structure: A network of bidirectional optical fibers connects various coordinate points
