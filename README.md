@@ -34,6 +34,16 @@ Beacons of RGB is a C++20 project developed as part of a Data Structures and Alg
 * Performance Constraints: Efficiency is a critical evaluation metric. Designed to handle dynamic data scaling without significant performance degradation.
 
 ## Program Structure
-* Datastructures.hh/cc: Contains the core logic and data storage implemented by the student.
-* MainProgram.hh/cc: Handles input parsing, command execution, and performance measurement.
-* MainWindow.hh/cc: Manages the Qt GUI for real-time visualization of beacons, fibers, and light paths.
+<pre>
+├── datastructures.hh     # Public interface (provided incompletely, to complete by the student)
+├── datastructures.cc     # Core implementation (student work)
+├── course_code/          # Provided framework & UI files
+└── README.md
+</pre>
+
+## How to run
+Compile and run using either:
+* Command-line (g++) for text-based interaction
+* QtCreator / qmake for graphical visualization
+
+Behavior and functionality are identical in both modes.
